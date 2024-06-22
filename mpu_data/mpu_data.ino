@@ -17,5 +17,5 @@ void loop() {
   Serial.print(mpu6050.getAngleY());
   Serial.print(",");
   Serial.println(mpu6050.getAngleZ());
-  delay(1); 
+  delay(10); 
 }
